@@ -15,9 +15,11 @@ def first_challenge
 
   #your code here
   
-  contacts.each do |key, val|
-    if key == "Freddy Mercury"
-      
+  contacts.each do |person, data|
+    if person == "Freddy Mercury"
+      person.each do |attribute, value|
+        
+      end
     end
   end
   
